@@ -11,8 +11,8 @@ Since it was very time consuming taking whole images as inputs and 3D Convolutio
 The best result was obtained by using the last mentoned aproach, in terms fof PSNR and SSIM values.
 
 <table><tr>
-<td> <img src="patches.gif" style="width: 400px;"/> </td>
-<td> <img src="slices.gif"style="width: 400px;"/> </td>
+<td> <img src="Images/patches.gif" style="width: 400px;"/> </td>
+<td> <img src="Images/slices.gif"style="width: 400px;"/> </td>
 </tr></table>
 
 ## DenseNet
@@ -33,7 +33,7 @@ This architecture conains 5 convolutional blocks that have the following layers:
 
 <br>
 <table><tr>
-<td> <img src="networks-DenseNetIva.drawio.png" style="width: 600px;"/> </td>
+<td> <img src="Images/networks-DenseNetIva.drawio.png" style="width: 600px;"/> </td>
 </tr></table>
 </center>
 
@@ -44,7 +44,7 @@ The final result for this method gave PSNR 33.87 and SSIM 0.89 on the test set. 
 <center>
 <br>
 <table><tr>
-<td> <img src="best_result_3D_densenet_patches.png" style="width: 600px;"/> </td>
+<td> <img src="Images/best_result_3D_densenet_patches.png" style="width: 600px;"/> </td>
 </tr></table>
 </center>
 
@@ -55,7 +55,7 @@ In this architecture there are 4 convolutional blocks each containing the follow
 
 <br>
 <table><tr>
-<td> <img src="network_with_2D.png" style="width: 600px;"/> </td>
+<td> <img src="Images/network_with_2D.png" style="width: 600px;"/> </td>
 </tr></table>
 </center>
 
@@ -64,7 +64,7 @@ In the end, there is a 3D convolutional layer to obtain the wanted output dimens
 <center>
 <br>
 <table><tr>
-<td> <img src="2d_result.JPG" style="width: 600px;"/> </td>
+<td> <img src="Images/2d_result.JPG" style="width: 600px;"/> </td>
 </tr></table>
 </center>
 
